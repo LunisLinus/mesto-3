@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-gzHX8OR0.js"></script>
+    <script type="module" crossorigin src="./assets/index-BeHvR2QF.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index--6e1hOV0.css">
   </head>
   <body class="page">
@@ -174,9 +174,9 @@
       <div class="popup popup_type_info">
         <div class="popup__content popup__content_content_info">
           <button type="button" class="popup__close"></button>
-          <h3 class="popup__title">Информация о карточке</h3>
-          <ul class="popup__info"></ul>
-          <h4 class="popup__title popup__title_size_small">Лайкнули:</h4>
+          <h3 class="popup__title">Статистика пользователей</h3>
+          <div class="popup__info"></div>
+          <p class="popup__text popup__title_size_small" style="font-weight: bold; margin: 24px 0 0;">Все пользователи:</p>
           <ul class="popup__list"></ul>
         </div>
       </div>
@@ -188,7 +188,6 @@
       <li class="places__item card">
         <img class="card__image" src="" alt="" />
         <div class="card__control">
-          <button type="button" class="card__control-button card__control-button_type_info"></button>
           <button type="button" class="card__control-button card__control-button_type_delete"></button>
         </div>
         <div class="card__description">
@@ -202,10 +201,10 @@
     </template>
 
     <template id="popup-info-definition-template">
-      <li class="popup__info-item">
+      <div class="popup__info-item">
         <span class="popup__info-term"></span>
         <span class="popup__info-description"></span>
-      </li>
+      </div>
     </template>
 
     <template id="popup-info-user-preview-template">
